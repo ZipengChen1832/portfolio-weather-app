@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="./index.css" rel="stylesheet" type="text/css"/>
+    <script src="https://kit.fontawesome.com/23584fa0db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <section class="main-panel">
+            <div class="summary">
+                <i class="fa-solid fa-cloud cloud1"></i>
+                <i class="fa-solid fa-cloud cloud2"></i>
+                <i class="fa-solid fa-cloud cloud3"></i>
+                <header class="summary-header">
+
+                    <div class="icon"><i class="fa-solid fa-spinner"></i></div>
+                    <div class="title">
+                        <h1>TODAY</h1>
+                        <div class="date">N/A</div>
+                    </div>
+                </header>
+                
+                <div class="summary__temperature">
+                    N/A
+                </div>
+                
+                <div class="summary__location">
+                    Loading...
+                </div>
+                
+                <div class="summary__desc">
+                    Loading...
+                </div>
+            </div>
+
+            <div class="rain-forcast">
+                <span>a</span>
+                <span>a</span>
+                <span>a</span>
+                <span>a</span>
+                <span>a</span>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="control-panel">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input id="city-lookup" type="text" class="searchbar" placeholder="Search new place"/>
+                    <!-- <div class="places">All places <i class="fa-solid fa-chevron-down"></i></div> -->
+                </div>
+                <div class="cities">    
+                    <div class="city">
+                        <div class="city__image">
+                            <img src="https://cdn.cnn.com/cnnnext/dam/assets/170706112840-germany.jpg" alt="germany">
+                        </div>
+                        <div class="city__name">
+                            Germany
+                        </div>
+                    </div>
+                    <div class="city">
+                        <div class="city__image">
+                            <img src="https://cdn.cnn.com/cnnnext/dam/assets/170706112840-germany.jpg" alt="germany">
+                        </div>
+                        <div class="city__name">
+                            Germany
+                        </div>
+                    </div>
+                    
+                    <label for="city-lookup" class="add-city">
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </label>
+                </div>
+            </div>
+
+            <div class="forcast-panel">
+                <h1 class="forcast__title">Weekly Forcast</h1>
+                <div class="forcast__weekly">
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-1"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-2"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-3"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-4"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-5"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-6"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                    <div class="forcast__daily">
+                        <div class="day"></div>
+                        <div class="weather"></div>
+                        <div class="daily-temp">
+                            <div class="low"></div>
+                            <div class="temp-bar-container">
+                                <div class="temp-bar temp-bar-7"></div>
+                            </div>
+                            <div class="high"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="/index.js" type="module"></script>
+</body>
+</html>
